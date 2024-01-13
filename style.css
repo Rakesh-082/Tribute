@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c2a26e;
+    color: #3D3B40;
+}
+
+.container{
+    min-height: 100vh;
+    border: 5px solid #76453B;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.img_container,img{ 
+    width: 400px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+
+
+
+.top{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top,h1{
+   font-size: 50px;
+   font-weight: bold;
+   color: #3D3B40;
+   text-transform: uppercase;
+}
+
+
+.top,h3{
+    text-align: end;
+    font-size: 30px;
+    
+}
+
+
+.about{
+    margin-top: 50px;
+ }
+
+ .about h2{
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+ }
+
+ .about p{
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+ }
+
+
+ .Bio{
+    margin: 50px 0;
+ }
+
+ .Bio h3{
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+ }
+
+ .Bio ul{
+    margin-left: 50px;
+ }
+
+ .Bio li{
+    margin-bottom: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+ }
+
+ footer{
+    margin: 50px 0;
+ }
+
+ footer p{
+    text-align: end;
+    font-size: 20px;
+ }
+ footer a{
+    text-decoration: none;
+ }
+
+ footer,.designer{
+    text-align: center;
+ }
+
+ footer h5{
+    margin: 50px 10px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 8px;
+ }
+
+ footer h6{
+    font-size: 15px;
+    background-color: #EBD9B4;
+    font-weight: lighter;
+ }
